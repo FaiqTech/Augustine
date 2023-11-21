@@ -254,9 +254,9 @@
     &__content{
         @include tablet{
             width: 100%;
-            font-size: 18px;
-            line-height: 25px;
-            
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 1px;
         }
        width: 100%;
        color: #fff;
@@ -301,7 +301,9 @@
   
    }
 
-   #footer{
+}
+
+#footer{
     background-color: #fff;
     .footer__col{
         @include tablet{
@@ -330,5 +332,3 @@
         }
     }
    }
-
-}

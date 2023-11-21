@@ -270,8 +270,9 @@
 @media (max-width: 768px) {
   #main .offers__content {
     width: 100%;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
   }
 }
 #main .offers__content-form {
@@ -313,32 +314,33 @@
 #main .offers__content-form-btn:hover {
   background-color: rgb(86, 86, 86);
 }
-#main #footer {
+
+#footer {
   background-color: #fff;
 }
-#main #footer .footer__col {
+#footer .footer__col {
   display: flex;
   justify-content: space-around;
 }
 @media (max-width: 768px) {
-  #main #footer .footer__col {
+  #footer .footer__col {
     flex-direction: column;
     margin-left: 20%;
   }
 }
-#main #footer .footer__col-list {
+#footer .footer__col-list {
   padding: 7%;
   line-height: 70px;
   font-size: 20px;
   font-weight: 200;
 }
-#main #footer .footer__col-list-icon a {
+#footer .footer__col-list-icon a {
   text-decoration: none;
   margin: 0 15px;
 }
-#main #footer .footer__col-list-item {
+#footer .footer__col-list-item {
   list-style-type: none;
 }
-#main #footer .footer__col-list-item-link {
+#footer .footer__col-list-item-link {
   color: black;
 }/*# sourceMappingURL=style.css.map */
